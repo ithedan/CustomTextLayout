@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="leftTvString" format="string" />
+        <attr name="rightTvString" format="string" />
+        <attr name="centerTvString" format="string" />
+        <attr name="leftTopTvString" format="string"/>
+        <attr name="leftBottomTvString" format="string"/>
+        <attr name="leftTvSize" format="dimension" />
+        <attr name="rightTvSize" format="dimension" />
+        <attr name="centerTvSize" format="dimension" />
+        <attr name="leftTvMarginleft" format="dimension" />
+        <attr name="rightTvMarginright" format="dimension" />
+        <attr name="leftTvColor" format="color" />
+        <attr name="rightTvColor" format="color" />
+        <attr name="centerTvColor" format="color" />
+        <attr name="rightImg" format="reference" />
+        <attr name="leftImg" format="reference" />
+        <attr name="leftImgWight" format="dimension" />
+        <attr name="leftImgHeight" format="dimension" />
+        <attr name="rightImgWidht" format="dimension" />
+        <attr name="rightImgHeight" format="dimension" />
+        <attr name="leftImgMarginleft" format="dimension" />
+        <attr name="rightImgMarginright" format="dimension" />
+        <attr name="bottomLineMargin" format="dimension" />
+        <attr name="bottomLineHeight" format="dimension" />
+        <attr name="centerTVMarginleft" format="dimension" />
+        <attr name="bottomLineShow" format="boolean"/>
+        <attr name="bottomcolor" format="color"/>
+        <attr name="leftTopTvMarginTop" format="dimension"/>
+        <attr name="leftTopTvMarginleft" format="dimension"/>
+        <attr name="leftBottomTvMarginleft" format="dimension"/>
+        <attr name="leftButtomTvMarginBottom" format="dimension"/>
+        <attr name="leftTopTvSize" format="dimension"/>
+        <attr name="leftBottomTvSize" format="dimension"/>
+        <attr name="leftTopTvColor" format="color"/>
+        <attr name="leftBottomTvColor" format="color"/>
+    </declare-styleable>
+
+
+</resources>

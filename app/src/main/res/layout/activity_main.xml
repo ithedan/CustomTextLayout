@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f8"
+    android:orientation="vertical"
+    tools:context="com.dengxiao.customtextlayout.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#1fde94"
+                app:leftTvColor="#ffffff"
+                app:leftTvMarginleft="20dp"
+                app:leftTvSize="20sp"
+                app:leftTvString="CustomTextViewLayout" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:centerTvColor="#000"
+                app:centerTvSize="18sp"
+                app:centerTvString="标题"
+                app:leftImg="@drawable/btn_back_pressed"
+                app:leftImgHeight="40dp"
+                app:leftImgMarginleft="5dp"
+                app:leftImgWight="40dp"
+                app:leftTvColor="@color/colorAccent"
+                app:leftTvMarginleft="5dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="左边"
+                app:rightImg="@drawable/btn_forward_pressed"
+                app:rightImgHeight="50dp"
+                app:rightImgMarginright="10dp"
+                app:rightImgWidht="50dp"
+                app:rightTvColor="#52adff"
+                app:rightTvMarginright="10dp"
+                app:rightTvSize="19sp"
+                app:rightTvString="右边" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#3F51B5"
+                app:bottomLineHeight="1dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#EEEEEE"
+                app:leftImg="@drawable/btn_back_pressed"
+                app:leftImgHeight="40dp"
+                app:leftImgMarginleft="5dp"
+                app:leftImgWight="40dp"
+                app:leftTvColor="#ffffff"
+                app:leftTvSize="18sp"
+                app:leftTvString="银行卡"
+                app:rightTvColor="#ffffff"
+                app:rightTvMarginright="10dp"
+                app:rightTvSize="15sp"
+                app:rightTvString="银行卡限额" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:leftImg="@drawable/btn_back_pressed"
+                app:leftImgHeight="40dp"
+                app:leftImgMarginleft="5dp"
+                app:leftImgWight="40dp"
+                app:leftTvColor="#000"
+                app:leftTvMarginleft="10dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="积分排行"
+                app:rightImg="@drawable/img_share"
+                app:rightImgHeight="30dp"
+                app:rightImgMarginright="10dp"
+                app:rightImgWidht="30dp" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ff8053"
+                app:centerTvColor="#ffffff"
+                app:centerTvSize="18sp"
+                app:centerTvString="赫丹"
+                app:leftImg="@drawable/icon_portrait"
+                app:leftImgHeight="40dp"
+                app:leftImgMarginleft="10dp"
+                app:leftImgWight="40dp"
+                app:rightTvColor="#ffffff"
+                app:rightTvMarginright="10dp"
+                app:rightTvSize="18sp"
+                app:rightTvString="更多" />
+
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#EEEEEE"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#ffffff"
+                app:leftImg="@drawable/btn_back_pressed"
+                app:leftImgHeight="40dp"
+                app:leftImgMarginleft="5dp"
+                app:leftImgWight="40dp"
+                app:leftTvColor="#000"
+                app:leftTvMarginleft="10dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="分类" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/colorAccent"
+                app:centerTvColor="#ffffff"
+                app:centerTvSize="18sp"
+                app:centerTvString="%丢丢%"
+                app:leftImg="@drawable/ic_search"
+                app:leftImgMarginleft="12dp" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:leftImg="@drawable/gonghang"
+                app:leftImgHeight="40dp"
+                app:leftImgMarginleft="10dp"
+                app:leftImgWight="40dp"
+                app:leftTvColor="@color/colorAccent"
+                app:leftTvMarginleft="20dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="工商银行" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:centerTVMarginleft="20dp"
+                app:centerTvSize="18sp"
+                app:centerTvString="￥80000  元"
+                app:leftTvColor="#a1a5aa"
+                app:leftTvMarginleft="20dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="市场价" />
+
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginRight="5dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:centerTVMarginleft="20dp"
+                app:centerTvSize="18sp"
+                app:centerTvString="黑色  128"
+                app:leftTvColor="#a1a5aa"
+                app:leftTvMarginleft="20dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="款式"
+                app:rightImg="@drawable/btn_forward_pressed"
+                app:rightImgHeight="40dp"
+                app:rightImgWidht="40dp" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:leftTvColor="#a1a5aa"
+                app:leftTvMarginleft="20dp"
+                app:leftTvSize="18sp"
+                app:leftTvString="款式"
+                app:rightImg="@drawable/btn_forward_pressed"
+                app:rightImgHeight="40dp"
+                app:rightImgMarginright="5dp"
+                app:rightImgWidht="40dp"
+                app:rightTvMarginright="10dp"
+                app:rightTvSize="18sp"
+                app:rightTvString="黑色  128" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:leftBottomTvColor="#a1a5aa"
+                app:leftBottomTvMarginleft="10dp"
+                app:leftBottomTvSize="13sp"
+                app:leftBottomTvString="*** **** **** 4563"
+                app:leftButtomTvMarginBottom="25dp"
+                app:leftImg="@drawable/nonghang"
+                app:leftImgHeight="70dp"
+                app:leftImgMarginleft="20dp"
+                app:leftImgWight="70dp"
+                app:leftTopTvColor="#000"
+                app:leftTopTvMarginTop="25dp"
+                app:leftTopTvMarginleft="10dp"
+                app:leftTopTvSize="18sp"
+                app:leftTopTvString="农业银行"
+                app:rightImg="@drawable/btn_forward_pressed"
+                app:rightImgHeight="40dp"
+                app:rightImgMarginright="5dp"
+                app:rightImgWidht="40dp" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffffff"
+                app:bottomLineHeight="1dp"
+                app:bottomLineMargin="10dp"
+                app:bottomLineShow="true"
+                app:bottomcolor="#eeeeee"
+                app:leftBottomTvColor="#a1a5aa"
+                app:leftBottomTvMarginleft="10dp"
+                app:leftBottomTvSize="13sp"
+                app:leftBottomTvString="*** **** **** 4563"
+                app:leftButtomTvMarginBottom="25dp"
+                app:leftImg="@drawable/gonghang"
+                app:leftImgHeight="70dp"
+                app:leftImgMarginleft="20dp"
+                app:leftImgWight="70dp"
+                app:leftTopTvColor="#000"
+                app:leftTopTvMarginTop="25dp"
+                app:leftTopTvMarginleft="10dp"
+                app:leftTopTvSize="18sp"
+                app:leftTopTvString="工商银行" />
+
+            <com.dengxiao.customtextlayout.CustomTextView
+                android:id="@+id/coustomTextView"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
